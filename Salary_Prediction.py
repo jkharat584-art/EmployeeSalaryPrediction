@@ -155,6 +155,7 @@ plt.xlabel("Years of Experience")
 plt.ylabel("Salary")
 plt.legend()
 plt.grid(True)
+plt.savefig("regression_graph.png", dpi=300, bbox_inches="tight")
 
 plt.show()
 # STEP 14: Predict salaries for different experience levels
