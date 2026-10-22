@@ -195,13 +195,10 @@ for exp, salary in zip(experience_values, predicted_salaries):
     )
 
 # STEP 15: Take input from the user
-
 print("\n--- EMPLOYEE SALARY PREDICTION SYSTEM ---")
 
 try:
-    experience = float(
-        input("Enter years of experience: ")
-    )
+    experience = float(input("Enter years of experience: "))
 
     if experience < 0:
         print("Experience cannot be negative.")
@@ -218,9 +215,5 @@ try:
 
 except ValueError:
     print("Please enter a valid number.")
-
-
-        print(f"Years of Experience: {experience}")
-        print(f"Predicted Salary: {predicted_salary:,.2f}")
 
 
