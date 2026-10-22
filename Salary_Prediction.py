@@ -213,10 +213,8 @@ try:
         print(f"Years of Experience: {experience}")
         print(f"Predicted Salary: {predicted_salary:,.2f}")
 
-except ValueError:
-    print("Please enter a valid number.")
+
         print(f"Years of Experience: {experience}")
         print(f"Predicted Salary: {predicted_salary:,.2f}")
 
-except ValueError:
-    print("Please enter a valid number.")
+
